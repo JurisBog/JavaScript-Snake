@@ -255,7 +255,7 @@ SNAKE.Snake = SNAKE.Snake || (function() {
             //console.log("lastmove="+lastMove);
             //console.log("dir="+keyNum);
 
-            let directionFound = -1;
+            var directionFound = -1;
 
             switch (keyNum) {
                 case 37:
